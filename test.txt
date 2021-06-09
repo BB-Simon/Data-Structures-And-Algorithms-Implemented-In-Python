@@ -1,0 +1,4 @@
+Asynchronous techniques are very
+particularly in web programming.
+When a web app runs in a browser and
+an intensive chunk of code without
