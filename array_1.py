@@ -16,3 +16,14 @@ idx = search(arr, n, key)
 # else:
 #   print('Element not found')
 
+
+def insertElement(arr, pos, element):
+  n = 5
+  for i in range(n-1,pos-1,-1) :
+    arr[i+1] = arr[i]
+  
+  arr[pos] = element
+  return arr
+
+
+arr = insertElement([1, 23, 45, 54, 6, -1], 1, 50)
